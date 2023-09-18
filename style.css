@@ -152,4 +152,44 @@ a{
 
 .quote-speaker{
     align-self:flex-end;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.action{
+    display: flex;
+    flex:1;
+    background-color: #f9faf8;
+    justify-content:center;
+    align-items:center;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.box{
+    background-color: #3882f6;
+    flex-basis:800px;
+    height:100px;
+    box-sizing: content-box;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.top-text, .bottom-text{
+    color:#f9faf8;
+}
+
+.top-text{
+    font-weight: 600;
+    font-size:18px;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding:5px 20px;
 }
