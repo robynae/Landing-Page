@@ -42,6 +42,7 @@ a{
     justify-content: center;
     gap:16px;
     padding:45px 0;
+    flex:1;
 }
 
 .hero-textbold{
@@ -89,6 +90,7 @@ a{
     padding-top:16px;
     padding-bottom:55px;
     gap:16px;
+    flex:1;
 }
 
 .gallery-header{
@@ -121,4 +123,33 @@ a{
 
 .gallery-text{
     color:#1F2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    flex:1;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.quote-container{
+    display:flex;
+    flex-direction:column;
+    max-width:800px;
+    flex-wrap:wrap;
+}
+
+.quote-text{
+    font-size:36px;
+    font-style: italic;
+    font-weight:300;
+    color:#1F2937;
+}
+
+.quote-speaker{
+    align-self:flex-end;
 }
